@@ -1,0 +1,117 @@
+.main-content-container {
+  height: 90vh;
+  padding: 12px;
+}
+.videos-tag {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+.videos-tag-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f1f1f1;
+  height: 32px;
+  min-width: 12px;
+  padding: 0 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 2rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: inline-flex;
+  margin: 0px 6px;
+}
+.video-tag-active {
+  background: #f1f1f1;
+  color: #0f0f0f;
+}
+.video-data-box {
+  width: 382px;
+  height: 315px;
+  margin: 0px 0px 0px 0px;
+}
+.video-thumbnail {
+  width: 382px;
+  height: 215px;
+  background: #000;
+  border-radius: 12px;
+}
+.video-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 14px;
+}
+.video-profile {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.video-profile-img img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.video-content-detail {
+  width: 80%;
+}
+.video-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  max-height: 4.4rem;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 8px;
+}
+.video-channel-wrap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.video-channel {
+  color: #aaa;
+  font-size: 12px;
+}
+.video-autharize svg {
+  width: 14px !important;
+  height: 14px !important;
+  margin-left: 4px;
+}
+.video-autharize svg path {
+  fill: #aaa;
+}
+.video-analytics {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.video-analytics span {
+  margin: 0px 4px;
+  font-size: 16px;
+}
+.videos-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0px;
+}

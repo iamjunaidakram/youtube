@@ -1,0 +1,9 @@
+.under-const-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.under-const-main p {
+  font-size: 24px;
+}

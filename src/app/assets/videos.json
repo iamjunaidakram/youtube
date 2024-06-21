@@ -1,0 +1,18 @@
+[
+  {
+    "thumbnail": "path/to/thumbnail1.jpg",
+    "profileImage": "https://yt3.ggpht.com/tjze3UFu2mo6EmIp_Fn5lL8wf4nXTiAbYYG-hRdWtLbtzLeGYObyyjughDK6yQ5AQfBTP7rDZQ=s88-c-k-c0x00ffffff-no-rj",
+    "title": "72 Hours in Lahore",
+    "channel": "72 Hours in Lahore",
+    "views": "1.8M Views",
+    "date": "7 month ago"
+  },
+  {
+    "thumbnail": "path/to/thumbnail2.jpg",
+    "profileImage": "https://yt3.ggpht.com/tjze3UFu2mo6EmIp_Fn5lL8wf4nXTiAbYYG-hRdWtLbtzLeGYObyyjughDK6yQ5AQfBTP7rDZQ=s88-c-k-c0x00ffffff-no-rj",
+    "title": "Another Video",
+    "channel": "Another Channel",
+    "views": "2.1M Views",
+    "date": "5 month ago"
+  }
+]

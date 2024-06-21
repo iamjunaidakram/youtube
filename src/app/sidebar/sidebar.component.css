@@ -1,0 +1,60 @@
+.sidebar {
+  width: 240px;
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 12px;
+}
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+.sidebar nav ul li {
+  padding: 0 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 14px;
+  line-height: 2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.sidebar nav ul li.active,
+.sidebar nav ul li:hover {
+  background-color: #3d3d3d;
+  font-weight: 600;
+}
+
+.sidebar nav ul hr {
+  border: 0.5px solid #3d3d3d;
+  margin: 10px 0;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+.sidebar-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.sidebar-icon svg path {
+  fill: #fff;
+}

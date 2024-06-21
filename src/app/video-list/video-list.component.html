@@ -1,0 +1,46 @@
+<div class="videos-data">
+  <div class="video-data-box" *ngFor="let video of videos">
+    <div>
+      <div class="video-thumbnail">
+        <img [src]="video.thumbnail" alt="Video Thumbnail" />
+      </div>
+      <div class="video-content">
+        <div class="video-profile">
+          <div class="video-profile-img">
+            <img [src]="video.profileImage" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="video-content-detail">
+          <div class="video-title">{{ video.title }}</div>
+          <div class="video-channel-wrap">
+            <div class="video-channel">{{ video.channel }}</div>
+            <div class="video-autharize">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="video-analytics">
+            <div class="video-views">{{ video.views }}</div>
+            <span>.</span>
+            <div class="video-date">{{ video.date }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

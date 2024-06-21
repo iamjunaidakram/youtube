@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px;
+  background: #0f0f0f;
+  color: #f1f1f1;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+.main-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.sidebar-wrap {
+  width: 16%;
+}
+.main-content {
+  width: 84%;
+}
